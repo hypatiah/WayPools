@@ -5,7 +5,6 @@ class CreateMatches < ActiveRecord::Migration
       t.integer :ride_id, presence: true
 
       t.timestamps null: false
-
     end
   end
 end
